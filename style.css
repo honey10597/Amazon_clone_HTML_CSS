@@ -159,14 +159,15 @@ span {
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    margin-bottom: 15px;
     border-width: 2px;
     border-color: black;
-    border-style: dotted;
+    /* border-style: double; */
 }
 
-.box1:hover {
+/* .box1:hover {
     box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1) inset, -10px -10px 10px white inset
-}
+} */
 
 .box-img {
     height: 200px;
@@ -184,6 +185,11 @@ span {
 
 .box-content p {
     color: #007185;
+    cursor: default;
+}
+
+.box-content p:hover {
+    text-decoration: underline;
 }
 
 footer {
